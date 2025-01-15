@@ -1,0 +1,45 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# production
+**/build
+**/dist
+**/bundle
+
+# public folder - we use templates instead in doris-test-player
+**/projects
+
+# generated docs
+**/docs
+
+# dependencies
+**/node_modules
+
+# turborepo
+**/.turbo
+graph-*.jpg
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+npm-debug.log*
+.yalc
+yalc.lock
+logs
+*.log
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+changeset-status.json
+
+# local package builds
+dicetechnology-*.tgz
+
+# generated files
+copy-lock.json
+
