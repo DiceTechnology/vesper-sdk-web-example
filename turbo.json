@@ -1,0 +1,9 @@
+{
+    "$schema": "https://turborepo.org/schema.json",
+    "globalDependencies": ["tsconfig.json", "tools/**/lib/*.js"],
+    "pipeline": {
+        "start": {
+            "outputs": []
+        }
+    }
+}

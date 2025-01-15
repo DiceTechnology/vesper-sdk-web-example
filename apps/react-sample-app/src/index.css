@@ -1,0 +1,43 @@
+body {
+    background-color: #1b1f32;
+    margin: 0;
+    font-family: "Quicksand", "Roboto", "Helvetica Neue", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.react-sample-app video {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+#player {
+    background-color: black;
+    box-shadow: 0 2px 5px black;
+    position: relative;
+    max-width: 1000px;
+    width: 100%;
+}
+
+#player::before {
+    content: ' ';
+    display: block;
+    padding-bottom: 56.25%;
+}

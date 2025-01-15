@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+        "target": "ES2015",
+        "lib": [
+            "DOM",
+            "DOM.Iterable",
+            "ES2020"
+        ],
+        "allowSyntheticDefaultImports": true,
+        "declaration": true,
+        "declarationMap": true,
+        "downlevelIteration": true,
+        "esModuleInterop": true,
+        "importHelpers": true,
+        "module": "ES2020",
+        "moduleResolution": "Node",
+        "noImplicitAny": true,
+        "noUnusedLocals": true,
+        "skipLibCheck": true,
+        "strictNullChecks": true,
+        "strictPropertyInitialization": true,
+        "noImplicitOverride": true,
+        "outDir": "dist/",
+        "types": []
+    },
+    "exclude": ["**/*.test.ts"]
+}
